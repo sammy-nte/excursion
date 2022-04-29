@@ -32,3 +32,34 @@ header a{
     justify-content: center;
     margin: 30px 0 0 0;
 }
+
+/*CAMP*/
+.camp{
+    width: 100%;
+    height: fit-content;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.camp h3 {
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.camp p {
+    font-size: 21px;
+    color: gray;
+}
+
+.image-holder{
+    width: 68%;
+    height: 550px;
+    margin: 30px 0 0 0;
+    background-image: url('../resources/images/camp.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
